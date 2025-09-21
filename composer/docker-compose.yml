@@ -1,0 +1,18 @@
+version: '2.3'
+
+services:
+
+  # This is the main content container.
+  lab:
+    runtime: nvidia
+    init: true
+    privileged: true
+    volumes:
+      - ..:/workspace/exercises
+    build: 
+      context: ..
+      dockerfile: composer/Dockerfile
+
+networks:
+  default:
+    name: nvidia-earth2
