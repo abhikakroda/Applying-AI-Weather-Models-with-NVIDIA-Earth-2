@@ -20,8 +20,7 @@ This project demonstrates how to run deterministic weather forecasts and statist
 - Climate modeling research
 - Applied ML in geoscience
 
-## Example Output
-*(Insert plots of Srinagar forecasts and downscaling results)*
+
 
 ## References
 - NVIDIA Earth-2 Initiative
